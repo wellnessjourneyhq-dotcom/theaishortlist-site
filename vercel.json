@@ -1,4 +1,46 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/go/descript",
+      "destination": "https://www.descript.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/elevenlabs",
+      "destination": "https://elevenlabs.io/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/invideo",
+      "destination": "https://invideo.io/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/jasper",
+      "destination": "https://www.jasper.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/notion",
+      "destination": "https://www.notion.so/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/pictory",
+      "destination": "https://pictory.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/surfer",
+      "destination": "https://surferseo.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
+      "source": "/go/synthesia",
+      "destination": "https://www.synthesia.io/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    }
+  ]
 }
