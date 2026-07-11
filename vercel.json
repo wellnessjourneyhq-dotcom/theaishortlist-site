@@ -1,5 +1,5 @@
 {
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
   "redirects": [
     {
@@ -50,8 +50,68 @@
   ],
   "rewrites": [
     {
-      "source": "/google2ff89b93eee3e4fa.html",
-      "destination": "/google2ff89b93eee3e4fa.html"
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/about.html"
+    },
+    {
+      "source": "/standards",
+      "destination": "/standards.html"
+    },
+    {
+      "source": "/disclosure",
+      "destination": "/disclosure.html"
+    },
+    {
+      "source": "/reviews/elevenlabs",
+      "destination": "/reviews/elevenlabs.html"
+    },
+    {
+      "source": "/reviews/invideo",
+      "destination": "/reviews/invideo.html"
+    },
+    {
+      "source": "/reviews/kit",
+      "destination": "/reviews/kit.html"
+    },
+    {
+      "source": "/reviews/surfer",
+      "destination": "/reviews/surfer.html"
+    },
+    {
+      "source": "/guides/best-ai-voice-generator",
+      "destination": "/guides/best-ai-voice-generator.html"
+    },
+    {
+      "source": "/guides/best-ai-video-editor",
+      "destination": "/guides/best-ai-video-editor.html"
+    },
+    {
+      "source": "/guides/best-ai-writing-tool",
+      "destination": "/guides/best-ai-writing-tool.html"
+    },
+    {
+      "source": "/guides/best-email-platform-for-creators",
+      "destination": "/guides/best-email-platform-for-creators.html"
+    },
+    {
+      "source": "/guides/best-ai-seo-tool",
+      "destination": "/guides/best-ai-seo-tool.html"
+    },
+    {
+      "source": "/guides/best-text-to-video",
+      "destination": "/guides/best-text-to-video.html"
+    },
+    {
+      "source": "/guides/best-ai-avatar-video",
+      "destination": "/guides/best-ai-avatar-video.html"
+    },
+    {
+      "source": "/guides/best-ai-workspace",
+      "destination": "/guides/best-ai-workspace.html"
     }
   ]
 }
