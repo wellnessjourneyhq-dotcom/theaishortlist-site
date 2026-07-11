@@ -47,5 +47,11 @@
       "destination": "https://www.synthesia.io/?REPLACE_WITH_YOUR_AFFILIATE_REF",
       "permanent": false
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/google2ff89b93eee3e4fa.html",
+      "destination": "/google2ff89b93eee3e4fa.html"
+    }
   ]
 }
