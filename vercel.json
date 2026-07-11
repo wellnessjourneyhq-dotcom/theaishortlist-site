@@ -23,6 +23,11 @@
       "permanent": false
     },
     {
+      "source": "/go/kit",
+      "destination": "https://kit.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
       "source": "/go/notion",
       "destination": "https://www.notion.so/?REPLACE_WITH_YOUR_AFFILIATE_REF",
       "permanent": false
