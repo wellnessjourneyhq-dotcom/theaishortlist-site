@@ -86,6 +86,10 @@
       "destination": "/reviews/surfer.html"
     },
     {
+      "source": "/reviews/synthesia",
+      "destination": "/reviews/synthesia.html"
+    },
+    {
       "source": "/guides/best-ai-voice-generator",
       "destination": "/guides/best-ai-voice-generator.html"
     },
