@@ -43,8 +43,18 @@
       "permanent": false
     },
     {
+      "source": "/go/surveymonkey",
+      "destination": "https://www.surveymonkey.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "permanent": false
+    },
+    {
       "source": "/go/synthesia",
       "destination": "https://www.synthesia.io/?via=theaishortlist",
+      "permanent": false
+    },
+    {
+      "source": "/go/typeform",
+      "destination": "https://www.typeform.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
       "permanent": false
     }
   ],
@@ -84,6 +94,10 @@
     {
       "source": "/reviews/surfer",
       "destination": "/reviews/surfer.html"
+    },
+    {
+      "source": "/reviews/surveymonkey-vs-typeform",
+      "destination": "/reviews/surveymonkey-vs-typeform.html"
     },
     {
       "source": "/reviews/synthesia",
