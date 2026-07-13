@@ -96,6 +96,10 @@
       "destination": "/reviews/kit.html"
     },
     {
+      "source": "/reviews/notion",
+      "destination": "/reviews/notion.html"
+    },
+    {
       "source": "/reviews/surfer",
       "destination": "/reviews/surfer.html"
     },
