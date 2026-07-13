@@ -80,6 +80,9 @@ border-radius:14px;padding:26px 30px;margin:28px 0}
 text-transform:uppercase;color:var(--accent)}
 .verdict .lbl.alt{color:var(--cyan)}
 .verdict .name{font-size:26px;font-weight:900;margin:2px 0}
+.verdict .vrate{display:inline-block;font-size:18px;font-weight:900;color:var(--accent);
+background:rgba(124,107,255,.12);border:1px solid var(--border);border-radius:8px;
+padding:1px 10px;vertical-align:middle}
 .verdict .note{color:var(--sub);font-size:15.5px}
 /* article */
 article{padding:44px 0 10px;max-width:780px;margin:0 auto}
