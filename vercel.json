@@ -88,6 +88,10 @@
       "destination": "/reviews/invideo.html"
     },
     {
+      "source": "/reviews/jasper",
+      "destination": "/reviews/jasper.html"
+    },
+    {
       "source": "/reviews/kit",
       "destination": "/reviews/kit.html"
     },
