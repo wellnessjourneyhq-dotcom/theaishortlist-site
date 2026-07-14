@@ -43,18 +43,22 @@ export default async function middleware(req) {
     process.env.UPSTASH_REDIS_REST_URL;
   const tok = process.env.KV_REST_API_TOKEN ||
     process.env.UPSTASH_REDIS_REST_TOKEN;
+  let u, key, dest;
   try {
-    const u = new URL(req.url);
-    const key = (u.pathname.split("/")[2] || "").slice(0, 64);
-    if (key === "__health") {
-      const state = base && tok
-        ? "configured; " + await count(base, tok, [["INCR", "go:__health"]])
-        : "NOT configured";
-      return new Response("go-counter: live; storage " + state,
-        { status: 200, headers: { "content-type": "text/plain" } });
-    }
-    const dest = DEST[key];
-    if (!dest) return; // unknown key -> vercel.json / 404 decides
+    u = new URL(req.url);
+    key = (u.pathname.split("/")[2] || "").slice(0, 64);
+    dest = DEST[key];
+  } catch (e) { return; }
+  if (key === "__health") {
+    const state = base && tok
+      ? "configured; " + await count(base, tok, [["INCR", "go:__health"]])
+      : "NOT configured";
+    return new Response("go-counter: live; storage " + state,
+      { status: 200, headers: { "content-type": "text/plain" } });
+  }
+  if (!dest) return; // unknown key -> other routes / 404 decide
+  // count first (isolated try; count() itself also never throws) ...
+  try {
     if (base && tok && /^[\w-]+$/.test(key)) {
       const sid = (u.searchParams.get("sid1") || "direct")
         .slice(0, 80).replace(/[^\w.-]/g, "_");
@@ -66,11 +70,15 @@ export default async function middleware(req) {
         ["HINCRBY", "go:" + key + ":camp", sid, 1],
       ]);
     }
-    // redirect with param merge — same passthrough vercel.json performed
-    // (incoming params win over any baked into the destination URL)
+  } catch (e) { /* counting must never break the redirect */ }
+  // ... then ALWAYS redirect (no vercel.json fallback exists anymore).
+  // Param merge preserves the passthrough the old rules performed
+  // (incoming params win); if even the merge fails, redirect raw.
+  try {
     const d = new URL(dest);
     u.searchParams.forEach((v, k) => d.searchParams.set(k, v));
     return Response.redirect(d.toString(), 307);
-  } catch (e) { /* counting must never break the redirect */ }
-  return; // undefined -> Vercel falls through to the vercel.json redirect
+  } catch (e) {
+    return Response.redirect(dest, 307);
+  }
 }

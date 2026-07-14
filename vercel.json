@@ -1,63 +1,6 @@
 {
   "cleanUrls": false,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/go/descript",
-      "destination": "https://www.descript.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/elevenlabs",
-      "destination": "https://try.elevenlabs.io/the-ai-shortlist",
-      "permanent": false
-    },
-    {
-      "source": "/go/invideo",
-      "destination": "https://invideo.sjv.io/B5Gq7B",
-      "permanent": false
-    },
-    {
-      "source": "/go/jasper",
-      "destination": "https://www.jasper.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/kit",
-      "destination": "https://kit.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/notion",
-      "destination": "https://www.notion.so/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/pictory",
-      "destination": "https://pictory.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/surfer",
-      "destination": "https://surferseo.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/surveymonkey",
-      "destination": "https://www.surveymonkey.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    },
-    {
-      "source": "/go/synthesia",
-      "destination": "https://www.synthesia.io/?via=theaishortlist",
-      "permanent": false
-    },
-    {
-      "source": "/go/typeform",
-      "destination": "https://www.typeform.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
-      "permanent": false
-    }
-  ],
   "rewrites": [
     {
       "source": "/",
