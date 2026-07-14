@@ -14,7 +14,7 @@
     },
     {
       "source": "/go/invideo",
-      "destination": "https://invideo.io/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+      "destination": "https://invideo.sjv.io/B5Gq7B",
       "permanent": false
     },
     {
@@ -86,6 +86,10 @@
     {
       "source": "/reviews/invideo",
       "destination": "/reviews/invideo.html"
+    },
+    {
+      "source": "/reviews/invideo-vs-pictory",
+      "destination": "/reviews/invideo-vs-pictory.html"
     },
     {
       "source": "/reviews/jasper",
