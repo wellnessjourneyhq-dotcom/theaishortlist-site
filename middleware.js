@@ -2,8 +2,12 @@
 export const config = { matcher: "/go/:key*" };
 
 export default function middleware(req, ctx) {
-  const base = process.env.UPSTASH_REDIS_REST_URL;
-  const tok = process.env.UPSTASH_REDIS_REST_TOKEN;
+  // Vercel Marketplace ("Upstash for Redis") injects KV_*; a hand-created
+  // Upstash DB injects UPSTASH_*. Accept both.
+  const base = process.env.KV_REST_API_URL ||
+    process.env.UPSTASH_REDIS_REST_URL;
+  const tok = process.env.KV_REST_API_TOKEN ||
+    process.env.UPSTASH_REDIS_REST_TOKEN;
   let key = "";
   try {
     const u = new URL(req.url);
