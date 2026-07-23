@@ -47,6 +47,10 @@
       "destination": "/reviews/notion.html"
     },
     {
+      "source": "/reviews/seele",
+      "destination": "/reviews/seele.html"
+    },
+    {
       "source": "/reviews/surfer",
       "destination": "/reviews/surfer.html"
     },
@@ -89,6 +93,10 @@
     {
       "source": "/guides/best-ai-workspace",
       "destination": "/guides/best-ai-workspace.html"
+    },
+    {
+      "source": "/guides/best-ai-game-maker",
+      "destination": "/guides/best-ai-game-maker.html"
     }
   ]
 }

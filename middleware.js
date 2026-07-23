@@ -12,6 +12,7 @@ const DEST = {
   "kit": "https://kit.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "notion": "https://www.notion.so/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "pictory": "https://pictory.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+  "seele": "https://www.seeles.ai/workspace?code=CFA422207",
   "surfer": "https://surferseo.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "surveymonkey": "https://www.surveymonkey.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "synthesia": "https://www.synthesia.io/?via=theaishortlist",
