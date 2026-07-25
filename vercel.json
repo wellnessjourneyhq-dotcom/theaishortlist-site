@@ -39,6 +39,10 @@
       "destination": "/reviews/jasper.html"
     },
     {
+      "source": "/reviews/kimi",
+      "destination": "/reviews/kimi.html"
+    },
+    {
       "source": "/reviews/kit",
       "destination": "/reviews/kit.html"
     },

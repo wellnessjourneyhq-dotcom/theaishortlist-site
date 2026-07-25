@@ -9,6 +9,7 @@ const DEST = {
   "elevenlabs": "https://try.elevenlabs.io/the-ai-shortlist",
   "invideo": "https://invideo.sjv.io/B5Gq7B",
   "jasper": "https://www.jasper.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+  "kimi": "https://www.kimi.com/",
   "kit": "https://kit.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "notion": "https://www.notion.so/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "pictory": "https://pictory.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
