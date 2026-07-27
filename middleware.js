@@ -7,6 +7,7 @@ export const config = { matcher: "/go/:key*" };
 const DEST = {
   "descript": "https://www.descript.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "elevenlabs": "https://try.elevenlabs.io/the-ai-shortlist",
+  "gpt56sol": "https://chatgpt.com/",
   "invideo": "https://invideo.sjv.io/B5Gq7B",
   "jasper": "https://www.jasper.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "kimi": "https://www.kimi.com/",

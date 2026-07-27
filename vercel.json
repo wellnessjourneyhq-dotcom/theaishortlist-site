@@ -27,6 +27,10 @@
       "destination": "/reviews/elevenlabs.html"
     },
     {
+      "source": "/reviews/gpt56sol",
+      "destination": "/reviews/gpt56sol.html"
+    },
+    {
       "source": "/reviews/invideo",
       "destination": "/reviews/invideo.html"
     },
