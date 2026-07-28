@@ -13,6 +13,7 @@ const DEST = {
   "kimi": "https://www.kimi.com/",
   "kit": "https://kit.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "notion": "https://www.notion.so/?REPLACE_WITH_YOUR_AFFILIATE_REF",
+  "openart": "https://openart.ai/features/openart-vfx/",
   "pictory": "https://pictory.ai/?REPLACE_WITH_YOUR_AFFILIATE_REF",
   "seele": "https://www.seeles.ai/workspace?code=CFA422207",
   "surfer": "https://surferseo.com/?REPLACE_WITH_YOUR_AFFILIATE_REF",

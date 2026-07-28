@@ -55,6 +55,10 @@
       "destination": "/reviews/notion.html"
     },
     {
+      "source": "/reviews/openart-vfx",
+      "destination": "/reviews/openart-vfx.html"
+    },
+    {
       "source": "/reviews/seele",
       "destination": "/reviews/seele.html"
     },
