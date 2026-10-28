@@ -31,6 +31,10 @@
       "destination": "/reviews/gpt56sol.html"
     },
     {
+      "source": "/reviews/heygen",
+      "destination": "/reviews/heygen.html"
+    },
+    {
       "source": "/reviews/invideo",
       "destination": "/reviews/invideo.html"
     },
@@ -109,6 +113,213 @@
     {
       "source": "/guides/best-ai-game-maker",
       "destination": "/guides/best-ai-game-maker.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/go/elevenlabs",
+      "destination": "https://try.elevenlabs.io/the-ai-shortlist",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/invideo",
+      "destination": "https://invideo.sjv.io/B5Gq7B",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/synthesia",
+      "destination": "https://www.synthesia.io/?via=theaishortlist",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/seele",
+      "destination": "https://www.seeles.ai/workspace?code=CFA422207",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/heygen",
+      "destination": "https://www.heygen.com/?sid1=heygen",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/notion",
+      "destination": "https://www.notion.so/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/jasper",
+      "destination": "https://www.jasper.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/descript",
+      "destination": "https://www.descript.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/pictory",
+      "destination": "https://pictory.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/kit",
+      "destination": "https://kit.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/convertkit",
+      "destination": "https://kit.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/surfer",
+      "destination": "https://surferseo.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/surferseo",
+      "destination": "https://surferseo.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/surveymonkey",
+      "destination": "https://www.surveymonkey.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/typeform",
+      "destination": "https://www.typeform.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/openart",
+      "destination": "https://openart.ai/features/openart-vfx/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/kimi",
+      "destination": "https://www.kimi.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/gpt56sol",
+      "destination": "https://chatgpt.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/copyai",
+      "destination": "https://www.copy.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/otter",
+      "destination": "https://otter.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/opus-clip",
+      "destination": "https://www.opus.pro/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/opusclip",
+      "destination": "https://www.opus.pro/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/fathom",
+      "destination": "https://fathom.video/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/kajabi",
+      "destination": "https://kajabi.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/murf",
+      "destination": "https://murf.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/gohighlevel",
+      "destination": "https://www.gohighlevel.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/fireflies",
+      "destination": "https://fireflies.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/writesonic",
+      "destination": "https://writesonic.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/frase",
+      "destination": "https://www.frase.io/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/leonardo",
+      "destination": "https://leonardo.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/vidyo",
+      "destination": "https://quso.ai/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/rytr",
+      "destination": "https://rytr.me/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/beehiiv",
+      "destination": "https://www.beehiiv.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/deel",
+      "destination": "https://www.deel.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/teachable",
+      "destination": "https://teachable.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/tidio",
+      "destination": "https://www.tidio.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/rippling",
+      "destination": "https://www.rippling.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/clickfunnels",
+      "destination": "https://www.clickfunnels.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/remote",
+      "destination": "https://remote.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/simplepractice",
+      "destination": "https://www.simplepractice.com/",
+      "statusCode": 307
+    },
+    {
+      "source": "/go/webflow",
+      "destination": "https://webflow.com/",
+      "statusCode": 307
     }
   ]
 }
